@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/brands.css" integrity="sha384-1KLgFVb/gHrlDGLFPgMbeedi6tQBLcWvyNUN+YKXbD7ZFbjX6BLpMDf0PJ32XJfX" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css" integrity="sha384-jLuaxTTBR42U2qJ/pm4JRouHkEDHkVqH0T1nyQXn1mZ7Snycpf6Rl25VBNthU4z0" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
-    <title>Gallery | Banush's Bar & Grill</title>
+    <title>Banquets | Banush's Bar & Grill</title>
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -62,53 +62,87 @@
     </div>
 </nav>
 <div class="container">
-    <div class="row gallery">
+    <div class="row banquets">
         <div class="col-sm-12">
-            <h2>GALLERY</h2>
+            <h2>BANQUETS</h2>
         </div>
     </div>
     <div class="row">
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0170.jpg" />
+        <div class="col-sm-8">
+            <h3>Book your next party with us!</h3>
+            <p>Our banquet room is available for your holiday parties,
+                birthday parties, or any other special occasions!
+            </p>
+            <p>Call today to check our availability!</p>
+            <h3>(608) 873-3700</h3>
+            <br/>
+            <form id="banquetForm" name="form">
+                <article>
+                    <label id="name"><strong>Your Name:</strong></label>
+                    <input type="text" id="name"
+                           name="Name"
+                           required="required"
+                           maxlength="25" />
+                    <br/>
+                    <br/>
+                    <label id="date"><strong>Date of Event:</strong></label>
+                    <input type="date" id="date"
+                           name="Date"
+                           required="required" />
+                    <br/>
+                    <br/>
+                    <label id="time"><strong>Time of Event:</strong></label>
+                    <input type="time" id="time"
+                           name="Time"
+                           required="required" />
+                    <br/>
+                    <br/>
+                    <label id="guests"><strong>Number of Guests:</strong></label>
+                    <input type="text" id="guests"
+                           name="Guests"
+                           required="required" />
+                    <br/>
+                    <br/>
+                    <label id="phoneNumber"><strong>Telephone Number:</strong></label>
+                    <input type="text" id="phoneNumber"
+                           name="Phone Number"
+                           required="required" />
+                    <br/>
+                    <br/>
+                    <label id="email"><strong>Your Email:</strong></label>
+                    <input type="text" id="email"
+                           name="Email"
+                           required="required" />
+                    <br/>
+                    <br/>
+                    <label id="subject"><strong>Subject:</strong></label>
+                    <input type="text" id="subject"
+                           name="Subject" />
+                    <br/>
+                    <br/>
+                    <label id="message"><strong>Your Message:</strong></label>
+                    <textarea name="message">
+                    </textarea>
+                    <br/>
+                    <br/>
+                </article>
+                <article id="controlArea">
+
+                    <input class="controlButtons" type="submit" value="Submit" />
+
+                    <input class="controlButtons" type="reset" value="Reset" />
+
+                </article>
+            </form>
         </div>
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0175.jpg" />
-        </div>
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0758.jpg" />
-        </div>
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0759.jpg" />
+        <div class="col-sm-4">
+            <img class="img-fluid" src="images/banquet1.jpg" />
+            <img class="img-fluid" src="images/banquet2.jpg" />
+            <img class="img-fluid" src="images/banquet3.jpg" />
+            <img class="img-fluid" src="images/banquet4.jpg" />
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0760.jpg" />
-        </div>
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0761.jpg" />
-        </div>
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0762.jpg" />
-        </div>
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0763.jpg" />
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0764.jpg" />
-        </div>
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0765.jpg" />
-        </div>
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0766.jpg" />
-        </div>
-        <div class="col-sm-3">
-            <img class="img-fluid" src="images/IMG_0778.jpg" />
-        </div>
-    </div>
+
 
     <div class="row">
         <footer class="col-sm-12">
